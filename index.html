@@ -3,50 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Symposium - Investment Group</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #000;
-            color: #fff;
-            text-align: center;
-        }
-        .container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-        }
-        .logo {
-            max-width: 200px;
-            margin-bottom: 20px;
-        }
-        h1 {
-            color: gold;
-            font-size: 2.5rem;
-            margin-bottom: 10px;
-        }
-        p {
-            max-width: 600px;
-            font-size: 1.2rem;
-            line-height: 1.5;
-        }
-        .footer {
-            position: absolute;
-            bottom: 20px;
-            font-size: 0.9rem;
-            color: #777;
-        }
-    </style>
+    <title>Symposium Investment Group</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <img src="logo.png" alt="Symposium Logo" class="logo">
-        <h1>Welcome to Symposium</h1>
-        <p>We are a premier investment group specializing in strategic asset growth and real time investments. With a keen eye for opportunity and a dedication to excellence, we navigate the financial landscape with confidence.</p>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#financials">Assets</a></li>
+            <li><a href="#team">Founders</a></li>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <img src="X.svg" alt="X Logo" class="nav-logo">
+    </nav>
+
+    <header>
+        <img src="Logo.svg" alt="Symposium Investment Group Logo" class="header-logo">
+    </header>
+
+    <div class="hero" id="home" style="background-image: url('hero.jpg');">
+        <h1>Global Wealth<br>Acceleration Architects.</h1>
+        <p>Elevating Wealth Through Visionary Precision</p>
+        <a href="#contact" class="cta-button">Experience Symposium</a>
     </div>
-    <div class="footer">&copy; 2025 Symposium. All rights reserved.</div>
+
+    <section id="financials">
+        <div class="section-content">
+            <h2 class="financials-title">Our Financial Portfolio</h2>
+            <p>Behold the cornerstone of Symposium’s empire—a meticulously curated portfolio that exemplifies our mastery in global wealth acceleration. From towering real estate ventures to bold private equity stakes, our assets radiate power and precision.</p>
+            <div class="assets-visualization">
+                <div class="asset-item">
+                    <h3>$170M</h3>
+                    <p>Total Assets Under Management</p>
+                </div>
+                <div class="asset-item">
+                    <h3>$60M</h3>
+                    <p>Strategic Investment Portfolio</p>
+                </div>
+                <div class="asset-item">
+                    <h3>$70M</h3>
+                    <p>Global Real Estate Empire</p>
+                </div>
+                <div class="asset-item">
+                    <h3>$40M</h3>
+                    <p>High-Yield Private Equity</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="team">
+        <div class="section-content">
+            <h2>Founders</h2>
+            <div class="team-members">
+                <div class="team-member">
+                    <img src="first.jpg" alt="Team Member 1">
+                    <h3>Dr. Viktor Valtor</h3>
+                    <p>Director of Strategic Innovation</p>
+                </div>
+                <div class="team-member">
+                    <img src="seccond.jpg" alt="Team Member 2">
+                    <h3>Sven Woodlen</h3>
+                    <p>Chief Investment Strategist</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about-us">
+        <div class="section-content">
+            <h2>Our Legacy</h2>
+            <p>At Symposium Investment Group, we redefine the art of wealth creation. With unparalleled expertise, we orchestrate the seamless deployment of capital across global markets, transcending traditional barriers. Our approach harnesses a vast reservoir of diversified assets, ensuring exceptional returns through strategic agility, cutting-edge wealth management, and intelligent market integration.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="section-content">
+            <h2>Connect With Us</h2>
+            <p>Our influence spans the globe, yet our essence remains an enigma. Engage with us through the shadows of the digital realm:</p>
+            <p>Email: <a href="mailto:enquiries@symposium.ll.land">enquiries@symposium.ll.land</a></p>
+            <p>Phone: Available Upon Request</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Symposium Investment Group. All Rights Reserved.</p>
+        <p>Follow us on <a href="#">LinkedIn</a> | <a href="#">X</a></p>
+    </footer>
 </body>
 </html>
